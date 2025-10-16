@@ -29,35 +29,36 @@ This project demonstrates a solid understanding of **React Native**, **TanStack 
 
 ---
 
-# How to Run the Project
+## How to Run the Project
+
 Follow these steps to set up and run the app locally:
 
-1. **Clone the repository**
-    https://github.com/zanasad/Company-Admin.git
-    cd company-admin
+```bash
+# 1️⃣Clone the repository
+git clone https://github.com/zanasad/Company-Admin.git
+cd company-admin
 
-2. **Install dependencies (Make sure you have Node.js and npm installed.)**
-    npm install
+# 2️⃣Install dependencies (Make sure you have Node.js and npm installed)
+npm install
 
-3. **Install Expo CLI (if not already installed)**
-    npm install -g expo-cli
+# 3️⃣Install Expo CLI (if not already installed)
+npm install -g expo-cli
 
-4. **Start the development server**
-    npx expo start
+# 4️⃣Start the development server
+npx expo start
 
-This command will:
-start the Metro bundler
-display a QR code in your terminal
-open a local development dashboard
+# This command will:
+# - Start the Metro bundler
+# - Display a QR code in your terminal
+# - Open a local development dashboard
 
-5. **Open the app**
-You have multiple ways to preview the app:
-| Platform    | How to Run                                                                         |
-| ----------- | ---------------------------------------------------------------------------------- |
-| **Android** | Open the [Expo Go](https://expo.dev/client) app on your phone and scan the QR code |
-| **iOS**     | Open your iPhone Camera app and scan the QR code, or use Expo Go                   |
-| **Web**     | Press `w` in the terminal or go to [http://localhost:8081](http://localhost:8081)  |
+# 5️⃣Open the app
+# You have multiple ways to preview the app:
+#   • Android → Open the Expo Go app and scan the QR code
+#   • iOS → Open your iPhone Camera app and scan the QR code, or use Expo Go
+#   • Web → Press "w" in the terminal or open http://localhost:8081 in your browser
 
-6. **Optional: Clear the cache(If you experience any errors or old data, run)**
-    npx expo start -c
+# 6️⃣(Optional) Clear the cache if you experience any errors or old data
+npx expo start -c
+
 
